@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "e9cf410c-697c-452d-a6a1-6b02019a7117",
+		"name": "Rapidmock",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Hello World Mock Endpoint",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.rapidmock.com/mocks/89mEw",
+					"protocol": "https",
+					"host": [
+						"api",
+						"rapidmock",
+						"com"
+					],
+					"path": [
+						"mocks",
+						"89mEw"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Hello World Mock Endpoint with Delay",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-rapidmock-delay",
+						"value": "2500",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.rapidmock.com/mocks/89mEw",
+					"protocol": "https",
+					"host": [
+						"api",
+						"rapidmock",
+						"com"
+					],
+					"path": [
+						"mocks",
+						"89mEw"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
