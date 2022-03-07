@@ -1,2 +1,2 @@
 # postman
-This repo contains Postman collections demonstrating the features of Rapidmock endpoints.
+This repo contains a Postman collection demonstrating the features of Rapidmock endpoints.
